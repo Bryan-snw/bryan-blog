@@ -1,0 +1,35 @@
+.main{
+  width: 350px;
+  height:auto;
+  color: #FEFCF3;
+  /* E6 is for trasnparency */
+  background-color:#1B262CE6;
+  border-radius: 50px;
+  box-shadow: 8px 8px #C5C2B7;
+}
+
+.main img {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.body{
+  padding: 15px 20px;
+}
+
+
+
+.header{
+  font-family: 'Marcellus SC';
+  font-size: 29px;
+  margin: 0;
+}
+
+.date{
+  margin: 5px 0;
+  font-size: 14px
+}
+
+.desc{
+  margin: 10px 0 20px 0;
+}

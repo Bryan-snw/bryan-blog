@@ -1,0 +1,41 @@
+.main{
+  display: flex;
+  padding-top: 80px;
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Marmelad";
+  font-style: normal;
+}
+
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1160px;
+  height: auto;
+  /* background-color:wheat; */
+  margin:30px;
+  margin-bottom:60px;
+  padding:40px;
+}
+
+.desc{
+  width: 75%;
+  /* background-color: aqua; */
+}
+
+.desc h1{
+  margin: 0;
+  font-size: 76px;
+}
+
+.desc p{
+  font-size: 29px;
+}
+
+.picture{
+  width: 25%;
+  height: 100%;
+  /* background-color: aquamarine; */
+}

@@ -1,0 +1,45 @@
+.main {
+  height: 160px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: blueviolet; */
+}
+
+/* .footer {
+  background-color: gray;
+} */
+
+/* .copyright {
+  background-color: aquamarine;
+} */
+
+.copyright p {
+  font-size: 19px;
+  margin: auto 0;
+}
+
+.icon {
+  /* background-color: beige; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon ul {
+  list-style: none;
+  margin: 15px 0 0 0;
+  padding: 0;
+}
+
+.icon li {
+  font-size: 26px;
+  display: inline;
+  margin: 0 10px;
+}
+
+.icon a{
+  color: inherit;
+  text-decoration: none;
+}

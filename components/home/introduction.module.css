@@ -1,0 +1,64 @@
+.main{
+  display: flex;
+  padding-top: 80px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Marmelad";
+  font-style: normal;
+}
+
+.introduction{
+  width: 1160px;
+  /* background-color:wheat; */
+  margin:30px;
+  margin-bottom:60px;
+  padding:40px;
+}
+
+.header{
+  font-size: 102px;
+  color:#31A5B5;
+  width: fit-content;
+  background-color: #1B262C;
+  padding: 5px 15px;
+  margin: 0;
+}
+
+.desc{
+  font-size: 86px;
+  padding: 0px 15px;
+  margin: 0;
+}
+
+.nav{
+  margin-top:30px;
+  padding: 0px 15px;
+}
+
+.nav :hover{
+  cursor: pointer;
+}
+
+.nav a{
+  text-decoration: none;
+  color:inherit;
+}
+
+.btn{
+  background-color: #1B262C;
+  color: #FFFFFF;
+  font-size:24px;
+  font-family: 'marcellus';
+  padding:10px 35px;
+  margin: 0 10px;
+  border-radius: 50px
+}
+
+.scroll{
+  font-size:20px;
+}
+
+.scroll i{
+  margin: 0 5px;
+  font-size:22px
+}

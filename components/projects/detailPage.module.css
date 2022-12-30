@@ -1,0 +1,60 @@
+.main {
+  display: flex;
+  padding-top: 80px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Marcellus SC";
+  font-style: normal;
+}
+
+.detailPage{
+  width: 1160px;
+  /* background-color:wheat; */
+  margin:30px;
+  margin-bottom:0;
+  padding:40px;
+}
+
+.pict{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.pict img{
+  border-radius: 50px;
+}
+
+.title{
+  font-size: 52px;
+  margin: 0;
+  padding: 0 15px;
+}
+
+.detailPage hr{
+  height: 5px;
+  margin: 15px;
+  background-color: #1B262C;
+  border-radius: 50px;
+}
+
+.detailPage p {
+  padding: 0 15px;
+  font-size: 26px
+}
+
+.imgContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(20rem,1fr));
+  grid-auto-rows: auto;
+  grid-gap: 50px;
+  margin-top: 50px;
+  padding: 0 60px;
+  overflow: hidden;
+}
+
+.imgContainer img{
+  border-radius: 10px;
+}
+

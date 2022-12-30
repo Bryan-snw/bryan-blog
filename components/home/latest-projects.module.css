@@ -1,0 +1,97 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1b262c;
+  color: white;
+}
+
+.latestprojects {
+  /* background-color:sienna ; */
+  width: 1160px;
+  margin:30px;
+  margin-bottom:60px;
+  padding:40px;
+}
+
+.latestprojects h1{
+  font-size:52px;
+  margin: 0;
+  padding: 0 15px;
+}
+
+.latestprojects h3{
+  font-size:38px;
+  font-family: 'Marcellus SC';
+  text-align: center;
+  margin: 0;
+}
+
+.container{
+  margin:20px;
+}
+
+.carousel{
+  /* background-color:cadetblue; */
+  display: flex;
+  margin: 30px auto;
+  width:1130px;
+  height: 500px;
+  overflow-y: hidden;
+  /* padding-bottom:10px; */
+  overflow-x:auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.carousel::-webkit-scrollbar{
+  display: absolute;
+  cursor: pointer;
+  visibility: hidden;
+  /* height: 8px; */
+  /* border: 1px solid #d5d5d5; */
+  border-radius: 50px;
+}
+/* .carousel::-webkit-scrollbar-thumb{
+  background-color:#FEFCF3;
+  border-radius: 50px;
+} */
+
+.carousel .item{
+  border-radius: 50px;
+  flex: 0 0 920px;
+  margin: 0 30px;
+  width: 920px;
+  display: inline-flex;
+  justify-content:center;
+  align-items:center;
+  scroll-snap-align: center;
+}
+
+.item:nth-child(odd){
+  background-color:brown;
+}
+.item:nth-child(even){
+  background-color:seagreen;
+}
+.item:first-child{
+  margin-left: 60px;
+}
+.item:last-child{
+  margin-right: 60px;
+}
+
+.indicator{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.indicator a{
+  margin: 0 5px;
+  width:130px;
+  height:6px;
+  border-radius:50px;
+  background-color: #FEFCF3;
+}

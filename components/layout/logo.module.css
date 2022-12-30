@@ -1,0 +1,13 @@
+.logo{
+  font-size: 34px;
+  margin: auto 50px;
+}
+
+.logo a{
+  color: inherit;
+  text-decoration: none
+}
+
+.dark{
+  color: white;
+}
