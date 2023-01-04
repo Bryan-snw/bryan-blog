@@ -1,21 +1,34 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Fragment } from "react";
 import classes from "./card.module.css";
 function Card(props) {
+  const { slug, title, date, image, content } = props.post;
+
+  const formattedDate = new Date(date).toLocaleString("en-US",{
+    // weekday: "long",
+    day: "numeric",
+    month:"long",
+    year:"numeric",
+  });
+
+  const linkPath = `/projects/${slug}`;
+  const imagePath = `/images/posts/${image}`;
+
   return (
     <Fragment>
-      <div className={classes.main}>
-        <Image src="/images/posts/1.png" alt="" width={350} height={210} />
-        <div className={classes.body}>
-          <h4 className={classes.header}>Project Room</h4>
-          <p className={classes.date}>8 Desember 2022</p>
-          <p className={classes.desc}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-            rutrum dolor eget sem consequat, a porta nisl eleifend. Donec non
-            pulvinar metus...
-          </p>
+      <Link href={linkPath}>
+        <div className={classes.main}>
+          <Image src={imagePath} alt={title} width={350} height={210} />
+          <div className={classes.body}>
+            <h4 className={classes.header}>{title}</h4>
+            <p className={classes.date}>{formattedDate}</p>
+            <p className={classes.desc}>
+              {content.substring(0, 172)+"..."}
+            </p>
+          </div>
         </div>
-      </div>
+      </Link>
     </Fragment>
   );
 }

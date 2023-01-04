@@ -17,7 +17,7 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
               </a>
             </li>
             <li>
@@ -26,12 +26,12 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fa-brands fa-linkedin"></i>
+                <i className="fa-brands fa-linkedin"></i>
               </a>
             </li>
             <li>
               <a href="mailto:bryansie29@gmail.com">
-                <i class="fa-solid fa-envelope"></i>
+                <i className="fa-solid fa-envelope"></i>
               </a>
             </li>
           </ul>
