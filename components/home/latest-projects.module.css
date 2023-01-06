@@ -68,6 +68,10 @@
   scroll-snap-align: center;
 }
 
+.item img{
+  border-radius:50px;
+}
+
 .item:nth-child(odd){
   background-color:brown;
 }
@@ -93,5 +97,13 @@
   width:130px;
   height:6px;
   border-radius:50px;
+}
+
+.indicator a:first-child{
   background-color: #FEFCF3;
 }
+
+.indicator a:not(:first-child){
+  background-color: #FEFCF399;
+}
+
