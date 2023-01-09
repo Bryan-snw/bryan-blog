@@ -7,11 +7,11 @@
   justify-content: center;
   background-color: #1B262C;
   position: fixed;
+  color:white;
   top: 0;
 }
 
 .nav{
-  color:white;
   display:flex;
   margin-left: auto;
 }
@@ -33,8 +33,53 @@
   text-decoration: none
 }
 
+.navIcon{
+  display: none;
+}
+
+
 @media only screen and (max-width: 992px) {
   .nav li{
     font-size: 20px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .nav{
+    position: fixed;
+    background-color:#1B262C;;
+    left:-100%;
+    top:80px;
+    width: 100%;
+    margin: 0;
+    transition: 0.5s;
+  }
+  .nav ul{
+    padding:0;
+    width: 100%;
+    margin:0;
+  }
+  .nav li{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 3% 5%;
+    margin:0;
+  }
+  .nav li:hover{
+    background-color: #fefcf3;
+    color: #1B262C;
+  }
+
+  .active{
+    left: 0;
+  }
+
+  .navIcon{
+    font-size: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: 25px;
   }
 }

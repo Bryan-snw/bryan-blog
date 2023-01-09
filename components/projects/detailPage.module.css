@@ -50,3 +50,20 @@
   border-radius: 10px;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .title{
+    font-size: 48px;
+  }
+  
+  .main p {
+    font-size: 24px
+  }
+
+  .imgContainer img{
+    width:335px;
+    height: auto;
+  }
+}
+
+
+

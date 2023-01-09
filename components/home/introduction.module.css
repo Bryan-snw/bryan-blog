@@ -50,7 +50,7 @@
   font-size:22px
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   .header{
     font-size: 72px;
     width: fit-content;
@@ -63,11 +63,36 @@
   .btn{
     font-size:20px;
     padding:10px 35px;
-    margin: 0 10px;
-    border-radius: 50px
+
   }
   
   .scroll{
     font-size:18px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .header{
+    font-size: 46px;
+    width: fit-content;
+  }
+  
+  .desc{
+    font-size: 36px;
+  }
+
+  .btn{
+    font-size:16px;
+    padding:8px 20px;
+  }
+  
+  .scroll{
+    font-size:14px;
+  }
+
+  .scroll i{
+    margin: 0 5px;
+    font-size:16px
   }
 }

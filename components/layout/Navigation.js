@@ -1,23 +1,42 @@
 import classes from "./Navigation.module.css";
 import Link from "next/link";
 import Logo from "./logo";
+import { useState } from "react";
 
 function Navigation() {
+  const [active, setActive] = useState("");
+  const [status, setStatus] = useState(false);
+
+  function clickHandler() {
+    if (!status) {
+      setActive(classes.active);
+      setStatus(true);
+    } else {
+      setActive("");
+      setStatus(false);
+    }
+  }
+
   return (
     <header className={classes.header}>
       <Logo />
-      <nav className={classes.nav}>
+      <nav id="nav" className={`${classes.nav} ${active}`}>
         <ul>
-          <li>
-            <Link href="/projects">Projects</Link>
-          </li>
-          <li>
-            <Link href="#about">About</Link>
-          </li>
-          <li>
-            <Link href="/contact">Contact</Link>
-          </li>
+          <Link href="/projects" onClick={clickHandler}>
+            <li>Projects</li>
+          </Link>
+          <Link href="/#about" onClick={clickHandler}>
+            <li>About</li>
+          </Link>
+          <Link href="/contact" onClick={clickHandler}>
+            <li>Contact</li>
+          </Link>
         </ul>
+      </nav>
+      <nav className={classes.navIcon}>
+        <Link href="" className={classes.icon} onClick={clickHandler}>
+          <i class="fa-solid fa-bars"></i>
+        </Link>
       </nav>
     </header>
   );

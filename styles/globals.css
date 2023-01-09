@@ -37,9 +37,28 @@ a {
   padding: 40px;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   .headerTitle {
-    font-size: 36px;
+    font-size: 40px;
+  }
+
+  .componentContainer {
+    width: 80%;
+    margin: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+  }
+
+  html,
+  body {
+    scroll-padding-top: 240px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .headerTitle {
+    font-size: 34px;
   }
 
   .componentContainer {

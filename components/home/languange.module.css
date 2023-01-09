@@ -31,12 +31,13 @@
 }
 
 .cardscontent {
-  margin: 0 2rem;
+  margin: 0 32px;
   align-items: center;
   display: flex;
   font-weight: 900;
   justify-content: center;
 }
+
 .cards-content:first-child {
   margin-left: 2rem;
 }
@@ -66,7 +67,7 @@
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   .marqIcon {
     margin: 50px 15px;
   }
@@ -74,5 +75,25 @@
   .marqIcon i {
     font-size: 74px;
     padding: 0 19px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .marqIcon {
+    margin: 50px 15px;
+  }
+
+  .cardscontent {
+    margin: 0px;
+  }
+
+  .cardscontent img{
+    width: 200px;
+    height: 48px;
+  }
+  
+  .marqIcon i {
+    font-size: 64px;
   }
 }
