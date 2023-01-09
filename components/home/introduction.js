@@ -3,7 +3,7 @@ import classes from './introduction.module.css'
 function Introduction(){
   return(
     <div className={classes.main}>
-      <div className={classes.introduction}>
+      <div className="componentContainer">
         <h1 className={classes.header}>Hello, I&apos;m Bryan,</h1>
         <h3 className={classes.desc}>I make website and want to become a Full-Stack Web Developer</h3>
         <div className={classes.nav}>

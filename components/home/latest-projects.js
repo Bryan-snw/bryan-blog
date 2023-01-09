@@ -35,10 +35,10 @@ function LatestProjects(props) {
 
   return (
     <div className={classes.main}>
-      <div className={classes.latestprojects}>
-        <h1>Latest Projects</h1>
+      <div className="componentContainer">
+        <h1 className="headerTitle">Latest Projects</h1>
         <div className={classes.container} id="latest-projects">
-          <h3>{ProjectTitle}</h3>
+          <h3 className={classes.title}>{ProjectTitle}</h3>
 
           <div className={classes.carousel}>
             <div className={classes.item} id="item1">

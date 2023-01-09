@@ -6,19 +6,6 @@
   justify-content: center;
 }
 
-.languange {
-  /* background-color:sienna ; */
-  width: 1160px;
-  margin: 30px;
-  margin-bottom: 60px;
-  padding: 40px;
-}
-
-.languange h1 {
-  font-size: 52px;
-  margin: 0;
-  padding: 0 15px;
-}
 
 .marqIcon {
   margin: 70px 15px;
@@ -76,5 +63,16 @@
 @keyframes moving {
   100% {
     transform: translateX(-2000px);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .marqIcon {
+    margin: 50px 15px;
+  }
+  
+  .marqIcon i {
+    font-size: 74px;
+    padding: 0 19px;
   }
 }

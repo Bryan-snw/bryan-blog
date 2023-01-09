@@ -7,20 +7,6 @@
   font-style: normal;
 }
 
-.projects{
-  width: 1160px;
-  /* background-color:wheat; */
-  margin:30px;
-  margin-bottom:0;
-  padding:40px;
-}
-
-.projects h1{
-  font-size: 52px;
-  margin: 0;
-  padding: 0 15px;
-}
-
 .cardsConainer{
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(20rem,1fr));
@@ -29,9 +15,4 @@
   margin-top: 50px;
   padding: 0 15px 15px;
   overflow: hidden;
-}
-
-.cardsConainer a{
-  text-decoration: none;
-  color:inherit;
 }

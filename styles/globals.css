@@ -6,7 +6,51 @@ body {
   width: 100%;
   font-family: "Marcellus";
   font-style: normal;
-  background-color: #FEFCF3;
+  background-color: #fefcf3;
   scroll-padding-top: 165px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.headerTitle {
+  font-size: 52px;
+  margin: 0;
+  padding: 0 15px;
+}
+
+.componentContainer {
+  width: 1160px;
+  /* background-color:wheat; */
+  margin: 30px;
+  margin-bottom: 60px;
+  padding: 40px;
+}
+
+.componentContainer1 {
+  width: 1160px;
+  /* background-color:wheat; */
+  margin: 30px;
+  margin-bottom: 0;
+  padding: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+  .headerTitle {
+    font-size: 36px;
+  }
+
+  .componentContainer {
+    width: 80%;
+    margin: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+  }
+
+  html,
+  body {
+    scroll-padding-top: 240px;
+  }
+}

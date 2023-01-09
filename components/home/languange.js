@@ -3,8 +3,8 @@ import Image from "next/image";
 function Languange() {
   return (
     <div className={classes.main}>
-      <div className={classes.languange}>
-        <h1>Programming Language</h1>
+      <div className="componentContainer">
+        <h1 className="headerTitle">Programming Language</h1>
         <div className={classes.marqIcon}>
 
           {/* <div className={classes.icon}>

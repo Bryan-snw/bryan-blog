@@ -7,14 +7,6 @@
   font-style: normal;
 }
 
-.detailPage{
-  width: 1160px;
-  /* background-color:wheat; */
-  margin:30px;
-  margin-bottom:0;
-  padding:40px;
-}
-
 .pict{
   display: flex;
   align-items: center;
@@ -32,14 +24,14 @@
   padding: 0 15px;
 }
 
-.detailPage hr{
+.main hr{
   height: 5px;
   margin: 15px;
   background-color: #1B262C;
   border-radius: 50px;
 }
 
-.detailPage p {
+.main p {
   padding: 0 15px;
   font-size: 26px
 }

@@ -39,3 +39,20 @@
   height: 100%;
   /* background-color: aquamarine; */
 }
+
+@media only screen and (max-width: 992px) {
+
+  .desc h1{
+    margin: 0;
+    font-size: 70px;
+  }
+  
+  .desc p{
+    font-size: 26px;
+  }
+
+  .picture{
+    width:280px;
+    height:480px;
+  }
+}

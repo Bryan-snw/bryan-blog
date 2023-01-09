@@ -8,8 +8,8 @@ function Projects(props) {
 
   return (
     <div className={classes.main}>
-      <div className={classes.projects}>
-        <h1>Projects</h1>
+      <div className="componentContainer1">
+        <h1 className="headerTitle">Projects</h1>
         <div className={classes.cardsConainer}>
           {posts.map((post) => (
             <Card key={post.slug} post={post} />

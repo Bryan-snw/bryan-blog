@@ -12,7 +12,7 @@ function DetailPage(props) {
 
   return (
     <div className={classes.main}>
-      <div className={classes.detailPage}>
+      <div className="componentContainer1">
         <div className={classes.pict}>
           <Image
             src={imagePath}
