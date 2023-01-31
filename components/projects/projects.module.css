@@ -2,6 +2,7 @@
   display: flex;
   padding-top: 80px;
   align-items: center;
+  /* background-color: beige; */
   justify-content: center;
   font-family: "Marcellus";
   font-style: normal;
@@ -15,4 +16,10 @@
   margin-top: 50px;
   padding: 0 15px 15px;
   overflow: hidden;
+}
+
+.gridItem{
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }

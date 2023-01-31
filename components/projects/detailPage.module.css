@@ -1,10 +1,15 @@
 .main {
   display: flex;
   padding-top: 80px;
+
   align-items: center;
   justify-content: center;
   font-family: "Marcellus SC";
   font-style: normal;
+}
+
+.main a{
+  text-decoration: underline;
 }
 
 .pict{
@@ -32,8 +37,10 @@
 }
 
 .main p {
+  font-family: "Marmelad";
   padding: 0 15px;
-  font-size: 26px
+  font-size: 26px;
+  text-align: justify;
 }
 
 .imgContainer{
@@ -60,7 +67,33 @@
   }
 
   .imgContainer img{
-    width:335px;
+    width:100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .pict{
+    width: 100%;
+    text-align: center;
+  }
+  
+  .pict img{
+    width: 90%;
+    height: auto;
+    border-radius: 25px;
+  }
+
+  .title{
+    font-size: 36px;
+  }
+  
+  .main p {
+    font-size: 17px;
+  }
+  
+  .imgContainer img{
+    width:100%;
     height: auto;
   }
 }

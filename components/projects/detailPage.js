@@ -7,8 +7,6 @@ function DetailPage(props) {
 
   const imagePath = `/images/posts/${slug}/${image}`;
 
-  console.log(images);
-
   return (
     <div className={classes.main}>
       <div className="componentContainer1">
@@ -27,8 +25,9 @@ function DetailPage(props) {
                 key={img}
                 src={`/images/posts/${slug}/${img}`}
                 alt={slug}
+                // layout='fill'
                 width={495}
-                height={300}
+                height={250}
               />
             ))}
             {/* <Image src="/images/posts/2.png" alt="" width={495} height={300} />

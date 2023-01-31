@@ -17,6 +17,7 @@ function Navigation() {
     }
   }
 
+
   return (
     <header className={classes.header}>
       <Logo />
@@ -34,8 +35,12 @@ function Navigation() {
         </ul>
       </nav>
       <nav className={classes.navIcon}>
-        <Link href="" className={classes.icon} onClick={clickHandler}>
-          <i class="fa-solid fa-bars"></i>
+        <Link
+          href="javascript:"
+          className={classes.icon}
+          onClick={clickHandler}
+        >
+          <i className="fa-solid fa-bars"></i>
         </Link>
       </nav>
     </header>

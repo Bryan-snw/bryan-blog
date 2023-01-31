@@ -46,7 +46,7 @@ function LatestProjects(props) {
                 src={`/images/posts/${featuredPosts[0].slug}/${featuredPosts[0].image}`}
                 alt={featuredPosts[0].slug}
                 width={920}
-                height={483.2}
+                height={500}
               />
             </div>
             <div className={classes.item} id="item2">
@@ -54,7 +54,7 @@ function LatestProjects(props) {
                 src={`/images/posts/${featuredPosts[1].slug}/${featuredPosts[1].image}`}
                 alt={featuredPosts[1].slug}
                 width={920}
-                height={483.2}
+                height={500}
               />
             </div>
             <div className={classes.item} id="item3">
@@ -62,7 +62,7 @@ function LatestProjects(props) {
                 src={`/images/posts/${featuredPosts[2].slug}/${featuredPosts[2].image}`}
                 alt={featuredPosts[2].slug}
                 width={920}
-                height={483.2}
+                height={500}
               />
             </div>
           </div>

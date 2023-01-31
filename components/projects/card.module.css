@@ -8,6 +8,11 @@
   box-shadow: 8px 8px #C5C2B7;
 }
 
+.pict {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
 .main img {
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
@@ -19,7 +24,7 @@
 
 .header{
   font-family: 'Marcellus SC';
-  font-size: 29px;
+  font-size: 28px;
   margin: 0;
 }
 
@@ -39,5 +44,27 @@
   
   .date{
     font-size: 14px
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header{
+    font-size: 26px;
+  }
+  
+  .main{
+    width: 100%;
+  }
+
+  .pict{
+    overflow: hidden;
+    /* background-color: aqua; */
+    /* width: fit-content; */
+  }
+
+  .main img{
+    width: 100%;
+    height: auto;
+
   }
 }

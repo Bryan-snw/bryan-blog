@@ -81,7 +81,7 @@
 /* Mobile */
 @media only screen and (max-width: 768px) {
   .marqIcon {
-    margin: 50px 15px;
+    margin: 20px 15px;
   }
 
   .cardscontent {
@@ -89,11 +89,12 @@
   }
 
   .cardscontent img{
-    width: 200px;
-    height: 48px;
+    width: auto;
+    height: 42px;
   }
   
   .marqIcon i {
-    font-size: 64px;
+    font-size: 54px;
+    padding: 0 15px;
   }
 }

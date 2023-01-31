@@ -2,7 +2,6 @@ import classes from "./projects.module.css";
 import Card from "./card";
 import Pagination from "./pagination";
 
-
 function Projects(props) {
   const { posts } = props;
 
@@ -12,7 +11,9 @@ function Projects(props) {
         <h1 className="headerTitle">Projects</h1>
         <div className={classes.cardsConainer}>
           {posts.map((post) => (
-            <Card key={post.slug} post={post} />
+            <div className={classes.gridItem} key={post.slug}>
+              <Card post={post} />
+            </div>
           ))}
         </div>
         <div>

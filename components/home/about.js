@@ -3,8 +3,18 @@ import Image from "next/image";
 
 function About() {
   return (
-    <div className={classes.main} >
+    <div className={classes.main}>
       <div className={classes.about} id="about">
+        <div className={classes.picture}>
+          <div className={classes.round}>
+            <Image
+              src="/images/site/Foto.png"
+              alt="My Face"
+              width={280}
+              height={480}
+            />
+          </div>
+        </div>
         <div className={classes.desc}>
           <h1>Nice to meet you</h1>
           <p>
@@ -19,14 +29,6 @@ function About() {
             lorem ipsum sit dolor.
           </p>
           <p>I&apos;m based in Indonesia.</p>
-        </div>
-        <div className={classes.picture}>
-          <Image
-            src="/images/site/Foto.png"
-            alt="My Face"
-            width={280}
-            height={480}
-          />
         </div>
       </div>
     </div>
