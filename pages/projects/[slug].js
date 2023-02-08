@@ -45,7 +45,7 @@ export function getStaticProps(context) {
 export function getStaticPaths() {
   const allPosts = getAllPosts();
 
-  const jumlahDataPerHalaman = 1;
+  const jumlahDataPerHalaman = 2;
   var jumlahData = allPosts.length;
   var jumlahHalaman = Math.ceil(jumlahData / jumlahDataPerHalaman);
 
