@@ -1,6 +1,7 @@
 import classes from "./latest-projects.module.css";
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 function LatestProjects(props) {
   const featuredPosts = props.featuredPosts;
@@ -9,15 +10,16 @@ function LatestProjects(props) {
   const [ProjectTitle, setProjectTitle] = useState(featuredPosts[0].title);
 
   function changeColor(selectedId) {
-    const ids = ['1', '2', '3'];
-    ids.splice(selectedId-1, 1);
+    const ids = ["1", "2", "3"];
+    ids.splice(selectedId - 1, 1);
 
     // Change the Selected Id
-    document.getElementById(`${selectedId}`).style.backgroundColor = "#FEFCF3"
+    document.getElementById(`${selectedId}`).style.backgroundColor = "#FEFCF3";
     // Change the unselected Id
-    ids.map((id) => (
-      document.getElementById(`${id}`).style.backgroundColor = "#FEFCF399"
-    ))
+    ids.map(
+      (id) =>
+        (document.getElementById(`${id}`).style.backgroundColor = "#FEFCF399")
+    );
   }
 
   function clickHandler(item) {
@@ -42,28 +44,34 @@ function LatestProjects(props) {
 
           <div className={classes.carousel}>
             <div className={classes.item} id="item1">
-              <Image
-                src={`/images/posts/${featuredPosts[0].slug}/${featuredPosts[0].image}`}
-                alt={featuredPosts[0].slug}
-                width={920}
-                height={500}
-              />
+              <Link href={`/projects/detail/${featuredPosts[0].slug}`}>
+                <Image
+                  src={`/images/posts/${featuredPosts[0].slug}/${featuredPosts[0].image}`}
+                  alt={featuredPosts[0].slug}
+                  width={920}
+                  height={500}
+                />
+              </Link>
             </div>
             <div className={classes.item} id="item2">
-              <Image
-                src={`/images/posts/${featuredPosts[1].slug}/${featuredPosts[1].image}`}
-                alt={featuredPosts[1].slug}
-                width={920}
-                height={500}
-              />
+              <Link href={`/projects/detail/${featuredPosts[1].slug}`}>
+                <Image
+                  src={`/images/posts/${featuredPosts[1].slug}/${featuredPosts[1].image}`}
+                  alt={featuredPosts[1].slug}
+                  width={920}
+                  height={500}
+                />
+              </Link>
             </div>
             <div className={classes.item} id="item3">
-              <Image
-                src={`/images/posts/${featuredPosts[2].slug}/${featuredPosts[2].image}`}
-                alt={featuredPosts[2].slug}
-                width={920}
-                height={500}
-              />
+              <Link href={`/projects/detail/${featuredPosts[2].slug}`}>
+                <Image
+                  src={`/images/posts/${featuredPosts[2].slug}/${featuredPosts[2].image}`}
+                  alt={featuredPosts[2].slug}
+                  width={920}
+                  height={500}
+                />
+              </Link>
             </div>
           </div>
 

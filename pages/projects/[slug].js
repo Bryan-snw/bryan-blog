@@ -1,63 +1,64 @@
 import { Fragment } from "react";
-import DetailPage from "../../components/projects/detailPage";
-import { getPostData, getPostFilesName } from "../../lib/post-util";
+import { getAllPosts } from "../../lib/post-util";
+import Project from "../../components/projects/projects";
 import Head from "next/head";
 
-function DetailProjectPage(props) {
+function ProjectsPage(props) {
+  const { posts, halaman } = props;
+
+  // Variable untuk Pagination
+  const jumlahDataPerHalaman = 2;
+  var jumlahData = posts.length;
+  var jumlahHalaman = Math.ceil(jumlahData / jumlahDataPerHalaman);
+  var halamanAktif = parseInt(halaman);
+  var awalData = jumlahDataPerHalaman * halamanAktif - jumlahDataPerHalaman;
+
   return (
     <Fragment>
       <Head>
-        <title>{props.post.title}</title>
-        <meta name="description" content={props.post.excerpt} />
+        <title>Projects</title>
+        <meta name="description" content="This is all post page" />
       </Head>
-      <DetailPage post={props.post}/>
+      <Project
+        posts={props.posts}
+        jumlahDataPerHalaman={jumlahDataPerHalaman}
+        jumlahHalaman={jumlahHalaman}
+        halamanAktif={halamanAktif}
+        awalData={awalData}
+      />
     </Fragment>
   );
 }
 
-export function getStaticProps(context){
+export function getStaticProps(context) {
+  const allPosts = getAllPosts();
   const { params } = context;
-  const { slug } = params;
-
-  const postData = getPostData(slug);
-  
-  return{
-    props: {
-      post: postData
-    },
-    revalidate: 600
-  }
-}
-
-export function getStaticPaths(){
-
-  const postFilesName = getPostFilesName();
-
-  const slugs = postFilesName.map((fileName) => fileName.replace(/\.md$/, ""));
-
 
   return {
-    paths: slugs.map((slug) => ({params: {slug: slug}})),
-    fallback: false,
-  }
+    props: {
+      posts: allPosts,
+      halaman: params.slug,
+    },
+  };
 }
 
-// export function getStaticProps(context) {
-//   return {
-//     props: {
-//       post: "tes"
-//     }
-//   }
-// }
+export function getStaticPaths() {
+  const allPosts = getAllPosts();
 
-// export function getStaticPaths() {
-//   const postFilesName = getPostFilesName();
-//   console.log(postFilesName);
+  const jumlahDataPerHalaman = 1;
+  var jumlahData = allPosts.length;
+  var jumlahHalaman = Math.ceil(jumlahData / jumlahDataPerHalaman);
 
-//   return {
-//     paths: [{ params: { slug: "drum" } }, { params: { slug: "room" } }],
-//     fallback: false,
-//   };
-// }
+  let slug = [];
+  for (let index = 1; index <= jumlahHalaman; index++) {
+    let data = { params: { slug: `${index}` } };
+    slug.push(data);
+  }
 
-export default DetailProjectPage;
+  return {
+    paths: slug,
+    fallback: false,
+  };
+}
+
+export default ProjectsPage;

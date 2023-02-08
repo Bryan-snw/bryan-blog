@@ -17,13 +17,12 @@ function Navigation() {
     }
   }
 
-
   return (
     <header className={classes.header}>
       <Logo />
       <nav id="nav" className={`${classes.nav} ${active}`}>
         <ul>
-          <Link href="/projects" onClick={clickHandler}>
+          <Link href="/projects/1" onClick={clickHandler}>
             <li>Projects</li>
           </Link>
           <Link href="/#about" onClick={clickHandler}>

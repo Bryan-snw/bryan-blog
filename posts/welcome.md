@@ -1,13 +1,13 @@
 ---
-title: 'Drum'
-date: '2022-10-16'
-image: '2.png'
-excerpt: 'Room is website application for digital guestbook and event'
+title: "Bryan's Blog"
+date: "2022-10-16"
+image: "bryan.png"
+excerpt: "Room is website application for digital guestbook and event"
 isFeatured: true
-images: ['1.png','3.png','1.png','3.png']
+images: ["1.png", "3.png", "1.png", "3.png"]
 ---
 
-Drum is a **framework for ReactJS.**
+Bryan's Blog is a portofolio website certain company that offer a shipping or delivery service. the website aims to help their customers to keep track of their package delivery status.
 
 Wait a second a "framework" for React? Isn't React itself already a framework for JavaScript?
 
@@ -26,6 +26,3 @@ In this article, we'll dive into the core concepts and features NextJS has to of
 - Rich Data Fetching Capabilities
 - Image Optimization
 - Much More
-
-
-

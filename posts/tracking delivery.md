@@ -1,10 +1,10 @@
 ---
-title: 'Tracking Delivery'
-date: '2022-12-10'
-image: '3.png'
-excerpt: 'Tracking delivery is website application to track your package delivery'
+title: "Tracking Delivery"
+date: "2022-12-10"
+image: "tracking.png"
+excerpt: "Tracking delivery is website application to track your package delivery"
 isFeatured: true
-images: ['2.png','1.png','2.png','1.png']
+images: ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png"]
 ---
 
 Tracking delivery is a website for a certain company that offer a shipping or delivery service. the website aims to help their customers to keep track of their package delivery status.
@@ -14,6 +14,3 @@ The idea of this website is basicaly just for a portfolio website, to challange 
 Tracking Delivery is a portofolio project made by me alone. This website is build using NextJS, the database using MySql and for the prototype design using Figma. the challange in this project for me, to be honest is really simple.. which is to make connection with MySql.. but on my defense tho, it's been a long time since i used MySql, because most of the time i enjoyed more using MongoDB. And i know the design look really simple, like really simple but that because i kind of want to do a speed-run working on this project and just focus on the main functionality. Click this link to [github](https://github.com/Bryan-snw/Tracking-Delivery) and no, i don't host this website, but i will show you a few picture of the website.
 
 Project:
-
-
-

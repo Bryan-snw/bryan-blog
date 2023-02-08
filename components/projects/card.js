@@ -12,7 +12,7 @@ function Card(props) {
     year: "numeric",
   });
 
-  const linkPath = `/projects/${slug}`;
+  const linkPath = `/projects/detail/${slug}`;
   const imagePath = `/images/posts/${slug}/${image}`;
 
   return (
