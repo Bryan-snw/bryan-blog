@@ -1,5 +1,6 @@
 import classes from "./about.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 function About() {
   return (
@@ -24,9 +25,14 @@ function About() {
             industry.
           </p>
           <p>
-            This blog is supposed to be a personal blog that contains all of my
-            project that i&apos;ve been worked before. Lorem ipsum sit dolor et,
-            lorem ipsum sit dolor.
+            This website is supposed to be a personal blog that contains all of
+            my project that i&apos;ve been worked before. so in a simple way
+            it&apos;s a portofolio blog. That being said, i will continue to
+            post my project in here, so take a look. Click
+            <span className={classes.link}>
+              <Link href="/projects/detail/welcome"> here </Link>
+            </span>
+            if you want to now in detail.
           </p>
           <p>I&apos;m based in Indonesia.</p>
         </div>

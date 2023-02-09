@@ -5,7 +5,7 @@ function Footer() {
 
   return (
     <div className={classes.main}>
-      <div className={classes.footer}>
+      <div id="footer" className={classes.footer}>
         <div className={classes.copyright}>
           <p>© Judiith Bryan Leonard Sie {year}</p>
         </div>

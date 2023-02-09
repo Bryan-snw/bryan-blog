@@ -1,4 +1,4 @@
-.main{
+.main {
   display: flex;
   padding-top: 80px;
   align-items: center;
@@ -7,76 +7,78 @@
   font-style: normal;
 }
 
-.about{
+.about {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 1160px;
   height: auto;
   /* background-color:wheat; */
-  margin:30px;
+  margin: 30px;
   margin-bottom: 0;
-  padding:40px;
+  padding: 40px;
 }
 
-.desc{
+.desc {
   width: 75%;
   text-align: right;
   /* background-color: aqua; */
 }
 
-.desc h1{
+.desc h1 {
   margin: 0;
   font-size: 76px;
 }
 
-.desc p{
+.desc p {
   font-size: 29px;
 }
 
-.picture{
+.picture {
   width: 25%;
   height: 100%;
   /* background-color: aquamarine; */
 }
 
-.picture img{
+.link {
+  text-decoration: underline;
+}
+
+.picture img {
   background-image: url("/public/images/site/Foto.png");
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-
-  .desc h1{
+  .desc h1 {
     margin: 0;
     font-size: 70px;
   }
-  
-  .desc p{
+
+  .desc p {
     font-size: 26px;
   }
 
-  .picture{
-    width:280px;
-    height:480px;
+  .picture {
+    width: 280px;
+    height: 480px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-
-  .main{
+  .main {
     padding-top: 40px;
   }
 
-  .about{
-    display:block;
+  .about {
+    display: block;
   }
 
-  .desc{
-    width:100%;
-    text-align:left;
+  .desc {
+    width: 100%;
+    text-align: left;
   }
 
-  .picture{
+  .picture {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,7 +86,7 @@
     width: 100%;
   }
 
-  .picture .round{
+  .picture .round {
     /* background-color: darkgoldenrod; */
     text-align: center;
     width: auto;
@@ -93,14 +95,14 @@
     border-radius: 50%;
   }
 
-  .desc h1{
+  .desc h1 {
     margin: 0;
     font-size: 40px;
   }
-  .desc p{
+  .desc p {
     font-size: 20px;
   }
-  .picture img{
+  .picture img {
     overflow: hidden;
     width: 65%;
     height: auto;

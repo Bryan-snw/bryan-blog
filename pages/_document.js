@@ -11,7 +11,12 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Marcellus&family=Marcellus+SC&family=Marmelad&display=swap"
             rel="stylesheet"
           ></link>
-          <script src="https://kit.fontawesome.com/926d0bf846.js" crossOrigin="anonymous" defer></script>
+          <link rel="icon" href="/logo.ico"></link>
+          <script
+            src="https://kit.fontawesome.com/926d0bf846.js"
+            crossOrigin="anonymous"
+            defer
+          ></script>
         </Head>
         <body>
           <Main />
