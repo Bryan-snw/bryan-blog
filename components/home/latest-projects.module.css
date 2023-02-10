@@ -143,15 +143,15 @@
 
   .carousel .item {
     border-radius: 50px;
-    flex: 0 0 250px;
+    flex: 0 0 240px;
     margin: 0 10px;
-    width: 250px;
-    height: 150px;
+    width: 240px;
+    height: 140px;
   }
 
   .item img {
-    width: 250px;
-    height: 150px;
+    width: 240px;
+    height: 140px;
     border-radius: 30px;
   }
   .item:first-child {
