@@ -37,7 +37,7 @@ a {
   padding: 40px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (max-width: 992px) {
   .headerTitle {
     font-size: 40px;
   }
@@ -56,7 +56,7 @@ a {
 }
 
 /* Mobile */
-@media only screen and (max-width: 767px) {
+/* @media only screen and (min-width: 767px) {
   .headerTitle {
     font-size: 34px;
   }
@@ -72,4 +72,4 @@ a {
   body {
     scroll-padding-top: 240px;
   }
-}
+} */

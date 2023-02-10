@@ -1,22 +1,23 @@
-.logo{
+.logo {
   font-size: 34px;
   margin: auto 50px;
 }
 
-.dark{
+.dark {
   color: white;
 }
 
 @media only screen and (max-width: 992px) {
-  .logo{
+  .logo {
     font-size: 32px;
+    margin: auto 5%;
   }
 }
 
 /* Mobile */
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .logo{
     font-size: 26px;
     margin: auto 25px;
   }
-}
+} */

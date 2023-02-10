@@ -39,12 +39,12 @@
   margin: 0 10px;
 }
 
-.icon a{
+.icon a {
   color: inherit;
   text-decoration: none;
 }
 
-@media only screen and (max-width: 768px){
+/* @media only screen and (max-width: 992px) {
   .copyright p {
     font-size: 18px;
     margin: auto 0;
@@ -54,4 +54,4 @@
     display: inline;
     margin: 0 10px;
   }
-}
+} */
