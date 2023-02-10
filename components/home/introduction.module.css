@@ -1,98 +1,103 @@
-.main{
+.main {
   display: flex;
   padding-top: 80px;
   align-items: center;
   justify-content: center;
   font-family: "Marmelad";
   font-style: normal;
+  /* background-color: salmon; */
 }
 
-.header{
+.header {
   font-size: 102px;
-  color:#31A5B5;
+  color: #31a5b5;
   width: fit-content;
-  background-color: #1B262C;
+  background-color: #1b262c;
   padding: 5px 15px;
   margin: 0;
 }
 
-.desc{
+.desc {
   font-size: 86px;
   padding: 0px 15px;
   margin: 0;
 }
 
-.nav{
-  margin-top:30px;
+.nav {
+  margin-top: 30px;
   padding: 0px 15px;
 }
 
-.nav :hover{
+.nav :hover {
   cursor: pointer;
 }
 
-.btn{
-  background-color: #1B262C;
-  color: #FFFFFF;
-  font-size:24px;
-  font-family: 'marcellus';
-  padding:10px 35px;
+.btn {
+  background-color: #1b262c;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "marcellus";
+  padding: 10px 35px;
   margin: 0 10px;
-  border-radius: 50px
+  border-radius: 50px;
 }
 
-.scroll{
-  font-size:20px;
+.scroll {
+  font-size: 20px;
 }
 
-.scroll i{
+.scroll i {
   margin: 0 5px;
-  font-size:22px
+  font-size: 22px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-  .header{
+  .header {
     font-size: 72px;
     width: fit-content;
   }
-  
-  .desc{
+
+  .desc {
     font-size: 62px;
   }
 
-  .btn{
-    font-size:20px;
-    padding:10px 35px;
-
+  .btn {
+    font-size: 20px;
+    padding: 10px 35px;
   }
-  
-  .scroll{
-    font-size:18px;
+
+  .scroll {
+    font-size: 18px;
   }
 }
 
 /* Mobile */
 @media only screen and (max-width: 768px) {
-  .header{
-    font-size: 46px;
+  .header {
+    font-size: 34px;
     width: fit-content;
   }
-  
-  .desc{
-    font-size: 36px;
+
+  .desc {
+    font-size: 28px;
   }
 
-  .btn{
-    font-size:16px;
-    padding:8px 20px;
-  }
-  
-  .scroll{
-    font-size:14px;
+  .nav {
+    margin-top: 20px;
+    padding: 0px;
   }
 
-  .scroll i{
+  .btn {
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+
+  .scroll {
+    font-size: 10px;
+  }
+
+  .scroll i {
     margin: 0 5px;
-    font-size:16px
+    font-size: 16px;
   }
 }

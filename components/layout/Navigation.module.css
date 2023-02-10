@@ -1,13 +1,13 @@
 .header {
-  height: 80px;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #1b262c;
   position: fixed;
-  color: white;
+  width: 100%;
   top: 0;
+  height: 80px;
+  background-color: #1b262c;
+  color: white;
 }
 
 .nav {

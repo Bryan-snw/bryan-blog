@@ -16,9 +16,9 @@ function HomePage(props) {
         <meta name="description" content="This my blog project" />
       </Head>
       <Introduction />
-      <LatestProjects featuredPosts={featuredPosts} />
+      {/* <LatestProjects featuredPosts={featuredPosts} />
       <Languange />
-      <About />
+      <About /> */}
     </Fragment>
   );
 }
