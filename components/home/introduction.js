@@ -15,7 +15,7 @@ function Introduction() {
           </Link>
           <Link href="#latest-projects">
             <label className={classes.scroll}>
-              scroll down for more <i className="fa-solid fa-arrow-down"></i>
+              or scroll down for more <i className="fa-solid fa-arrow-down"></i>
             </label>
           </Link>
         </div>
