@@ -38,9 +38,6 @@
 }
 
 @media only screen and (max-width: 992px) {
-  /* .nav li{
-    font-size: 20px;
-  } */
   .nav {
     position: fixed;
     background-color: #1b262c;
@@ -57,9 +54,10 @@
   }
   .nav li {
     display: block;
+    font-size: 20px;
     width: 100%;
     height: auto;
-    padding: 2% 5%;
+    padding: 2.5% 5%;
     margin: 0;
   }
   .nav li:hover {
