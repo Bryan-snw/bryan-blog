@@ -48,7 +48,7 @@
   background-image: url("/public/images/site/Foto.png");
 }
 
-/* @media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   .desc h1 {
     margin: 0;
     font-size: 70px;
@@ -62,9 +62,9 @@
     width: 280px;
     height: 480px;
   }
-} */
+}
 
-/* @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .main {
     padding-top: 40px;
   }
@@ -96,14 +96,14 @@
 
   .desc h1 {
     margin: 0;
-    font-size: 40px;
+    font-size: 28px;
   }
   .desc p {
-    font-size: 20px;
+    font-size: 14px;
   }
   .picture img {
     overflow: hidden;
     width: 65%;
     height: auto;
   }
-} */
+}
