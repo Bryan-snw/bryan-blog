@@ -13,7 +13,7 @@
   justify-content: center;
   width: 1160px;
   height: auto;
-  /* background-color:wheat; */
+  /* background-color: wheat; */
   margin: 30px;
   margin-bottom: 0;
   padding: 40px;
@@ -71,6 +71,8 @@
 
   .about {
     display: block;
+    margin: 30px;
+    padding: 0px;
   }
 
   .desc {
