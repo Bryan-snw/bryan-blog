@@ -5,7 +5,6 @@ import Link from "next/link";
 
 function LatestProjects(props) {
   const featuredPosts = props.featuredPosts;
-  console.log(featuredPosts[0].image);
 
   const [ProjectTitle, setProjectTitle] = useState(featuredPosts[0].title);
 

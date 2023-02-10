@@ -8,7 +8,6 @@ function Pagination(props) {
   for (let index = 1; index <= jumlahHalaman; index++) {
     halaman.push(index);
   }
-  console.log(halaman);
 
   return (
     <div className={classes.main}>

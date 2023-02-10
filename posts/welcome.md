@@ -2,7 +2,7 @@
 title: "Bryan's Blog"
 date: "2022-10-16"
 image: "bryan.png"
-excerpt: "Room is website application for digital guestbook and event"
+excerpt: "Bryan's Blog is a personal portofolio blog."
 isFeatured: true
 images: []
 ---

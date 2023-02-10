@@ -11,10 +11,10 @@ function HomePage(props) {
 
   return (
     <Fragment>
-    <Head>
-      <title>Bryan&apos;s Blog</title>
-      <meta name="description" content="This my blog project" />
-    </Head>
+      <Head>
+        <title>Bryan&apos;s Blog</title>
+        <meta name="description" content="This my blog project" />
+      </Head>
       <Introduction />
       <LatestProjects featuredPosts={featuredPosts} />
       <Languange />
@@ -23,14 +23,13 @@ function HomePage(props) {
   );
 }
 
-export function getStaticProps(){
+export function getStaticProps() {
   const featuredPosts = getFeaturedPosts();
-  // console.log(featuredPosts);
   return {
-    props:{
+    props: {
       featuredPosts: featuredPosts,
-    }
-  }
+    },
+  };
 }
 
 export default HomePage;
