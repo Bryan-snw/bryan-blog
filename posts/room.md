@@ -1,10 +1,11 @@
 ---
 title: "Room"
-date: "2022-12-16"
+date: "2023-02-10"
 image: "room.png"
 excerpt: "Room is website application for digital guestbook and event"
 isFeatured: true
-images: ["room1.png", "room2.png", "room3.png", "room4.png", "room5.png", "room6.png"]
+images:
+  ["room1.png", "room2.png", "room3.png", "room4.png", "room5.png", "room6.png"]
 ---
 
 Room is a website-based application service that aims to help and facilitate people in the process of creating and managing guestbook and events. in a simple way Room is a digital guestbook.

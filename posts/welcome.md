@@ -1,6 +1,6 @@
 ---
 title: "Bryan's Blog"
-date: "2022-10-16"
+date: "2023-02-10"
 image: "bryan.png"
 excerpt: "Bryan's Blog is a personal portofolio blog."
 isFeatured: true
