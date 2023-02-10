@@ -19,7 +19,7 @@ function Projects(props) {
 
   return (
     <div className={classes.main}>
-      <div className="componentContainer1">
+      <div className="componentContainer">
         <h1 className="headerTitle">Projects</h1>
         <div className={classes.cardsConainer}>
           {LimitedPosts.map((post) => (

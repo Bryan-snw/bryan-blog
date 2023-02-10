@@ -46,12 +46,11 @@
 
 @media only screen and (max-width: 992px) {
   .copyright p {
-    font-size: 18px;
+    font-size: 16px;
     margin: auto 0;
   }
   .icon li {
-    font-size: 24px;
-    display: inline;
+    font-size: 18px;
     margin: 0 10px;
   }
 }

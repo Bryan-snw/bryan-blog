@@ -50,22 +50,33 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .header {
-    font-size: 26px;
-  }
-
   .main {
-    width: 100%;
+    width: 280px;
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 8px 8px #c5c2b7;
   }
 
   .pict {
-    overflow: hidden;
-    /* background-color: aqua; */
-    /* width: fit-content; */
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 280px;
+    height: auto;
   }
-
   .main img {
     width: 100%;
     height: auto;
+  }
+
+  .header {
+    font-size: 24px;
+  }
+
+  .date {
+    font-size: 12px;
+  }
+
+  .desc {
+    font-size: 14px;
   }
 }
