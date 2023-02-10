@@ -38,7 +38,7 @@ a {
 
 @media only screen and (max-width: 992px) {
   .headerTitle {
-    font-size: 40px;
+    font-size: 24px;
   }
 
   .componentContainer {
@@ -57,7 +57,7 @@ a {
 /* Mobile */
 /* @media only screen and (min-width: 767px) {
   .headerTitle {
-    font-size: 34px;
+    font-size: 28px;
   }
 
   .componentContainer {

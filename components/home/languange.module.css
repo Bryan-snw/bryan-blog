@@ -1,11 +1,11 @@
 .main {
-  background-color: #1b262c;
-  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  background-color: #1b262c;
+  color: white;
 }
-
 
 .marqIcon {
   margin: 70px 15px;
@@ -26,7 +26,7 @@
   grid-gap: 1rem;
   grid-auto-flow: column;
   min-height: 100px;
-  padding-bottom:15px;
+  padding-bottom: 15px;
   cursor: w-resize;
 }
 
@@ -54,8 +54,8 @@
   border: 1px solid #d5d5d5;
   border-radius: 50px;
 }
-.cards::-webkit-scrollbar-thumb{
-  background-color:#FEFCF3;
+.cards::-webkit-scrollbar-thumb {
+  background-color: #fefcf3;
   border-radius: 50px;
 }
 
@@ -67,34 +67,40 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+/* @media only screen and (min-width: 768px) and (max-width: 992px) {
   .marqIcon {
     margin: 50px 15px;
   }
-  
+
   .marqIcon i {
-    font-size: 74px;
+    font-size: 24px;
     padding: 0 19px;
   }
-}
+} */
 
 /* Mobile */
 @media only screen and (max-width: 768px) {
+  .cards {
+    grid-gap: 0.5rem;
+    min-height: 50px;
+    padding-bottom: 20px;
+  }
+
   .marqIcon {
-    margin: 20px 15px;
+    margin: 30px 15px;
+  }
+
+  .marqIcon i {
+    font-size: 34px;
+    padding: 0 15px;
   }
 
   .cardscontent {
     margin: 0px;
   }
 
-  .cardscontent img{
+  .cardscontent img {
     width: auto;
-    height: 42px;
-  }
-  
-  .marqIcon i {
-    font-size: 54px;
-    padding: 0 15px;
+    height: 22px;
   }
 }

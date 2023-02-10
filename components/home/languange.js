@@ -6,22 +6,6 @@ function Languange() {
       <div className="componentContainer">
         <h1 className="headerTitle">Programming Language</h1>
         <div className={classes.marqIcon}>
-          {/* <div className={classes.icon}>
-              <i className="fa-brands fa-html5"></i>
-              <i className="fa-brands fa-css3"></i>
-              <i className="fa-brands fa-js"></i>
-              <i className="fa-brands fa-node"></i>
-              <i className="fa-brands fa-react"></i>
-              <i>
-                <Image
-                  src="/images/site/nextjs-icon.png"
-                  alt="NextJs"
-                  width={322}
-                  height={77}
-                />
-              </i>
-            </div> */}
-
           <div className={classes.wrapper}>
             <section className={classes.cards}>
               <div className={classes.cardscontent}>

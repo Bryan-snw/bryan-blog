@@ -17,7 +17,7 @@ function HomePage(props) {
       </Head>
       <Introduction />
       {/* <LatestProjects featuredPosts={featuredPosts} /> */}
-      {/* <Languange /> */}
+      <Languange />
       <About />
     </Fragment>
   );
