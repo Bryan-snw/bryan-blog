@@ -12,6 +12,7 @@ function Pagination(props) {
   return (
     <div className={classes.main}>
       <ul>
+        {/* Left Arrow */}
         {halamanAktif == 1 ? (
           ""
         ) : (
@@ -23,6 +24,7 @@ function Pagination(props) {
             </div>
           </Link>
         )}
+        {/* Number Pagination */}
         {halaman.map((i) =>
           i == halamanAktif ? (
             <Link key={i} href={`/projects/${i}`}>
@@ -38,6 +40,7 @@ function Pagination(props) {
             </Link>
           )
         )}
+        {/* Right Arroe */}
         {halamanAktif == jumlahHalaman ? (
           ""
         ) : (
