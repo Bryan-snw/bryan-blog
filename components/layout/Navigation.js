@@ -34,13 +34,9 @@ function Navigation() {
         </ul>
       </nav>
       <nav className={classes.navIcon}>
-        <Link
-          href="javascript:"
-          className={classes.icon}
-          onClick={clickHandler}
-        >
+        <span className={classes.icon} onClick={clickHandler}>
           <i className="fa-solid fa-bars"></i>
-        </Link>
+        </span>
       </nav>
     </header>
   );
