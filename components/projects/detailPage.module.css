@@ -8,31 +8,32 @@
   font-style: normal;
 }
 
-.main a{
+.main a {
   text-decoration: underline;
 }
 
-.pict{
+.pict {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 15px;
 }
 
-.pict img{
+.pict img {
   border-radius: 50px;
+  border: 1px solid black;
 }
 
-.title{
+.title {
   font-size: 52px;
   margin: 0;
   padding: 0 15px;
 }
 
-.main hr{
+.main hr {
   height: 5px;
   margin: 15px;
-  background-color: #1B262C;
+  background-color: #1b262c;
   border-radius: 50px;
 }
 
@@ -43,9 +44,9 @@
   text-align: justify;
 }
 
-.imgContainer{
+.imgContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(20rem,1fr));
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
   grid-auto-rows: auto;
   grid-gap: 50px;
   margin-top: 50px;
@@ -53,50 +54,47 @@
   overflow: hidden;
 }
 
-.imgContainer img{
+.imgContainer img {
   border-radius: 10px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-  .title{
+  .title {
     font-size: 48px;
   }
-  
+
   .main p {
-    font-size: 24px
+    font-size: 24px;
   }
 
-  .imgContainer img{
-    width:100%;
+  .imgContainer img {
+    width: 100%;
     height: auto;
   }
 }
 
-@media only screen and (max-width: 768px){
-  .pict{
+@media only screen and (max-width: 768px) {
+  .pict {
     width: 100%;
     text-align: center;
   }
-  
-  .pict img{
+
+  .pict img {
     width: 90%;
     height: auto;
     border-radius: 25px;
   }
 
-  .title{
+  .title {
     font-size: 36px;
   }
-  
+
   .main p {
     font-size: 17px;
   }
-  
-  .imgContainer img{
-    width:100%;
+
+  .imgContainer img {
+    width: 100%;
     height: auto;
   }
 }
-
-
-

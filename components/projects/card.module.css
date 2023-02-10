@@ -1,16 +1,18 @@
-.main{
+.main {
   width: 350px;
-  height:auto;
-  color: #FEFCF3;
+  height: auto;
+  color: #fefcf3;
   /* E6 is for trasnparency */
-  background-color:#1B262CE6;
+  background-color: #1b262ce6;
   border-radius: 50px;
-  box-shadow: 8px 8px #C5C2B7;
+  box-shadow: 8px 8px #c5c2b7;
 }
 
 .pict {
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
+  width: 350px;
+  height: 210px;
 }
 
 .main img {
@@ -18,53 +20,52 @@
   border-top-right-radius: 50px;
 }
 
-.body{
+.body {
   padding: 15px 20px;
 }
 
-.header{
-  font-family: 'Marcellus SC';
+.header {
+  font-family: "Marcellus SC";
   font-size: 28px;
   margin: 0;
 }
 
-.date{
+.date {
   margin: 5px 0;
-  font-size: 14px
+  font-size: 14px;
 }
 
-.desc{
+.desc {
   margin: 10px 0 20px 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-  .header{
+  .header {
     font-size: 29px;
   }
-  
-  .date{
-    font-size: 14px
+
+  .date {
+    font-size: 14px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .header{
+  .header {
     font-size: 26px;
   }
-  
-  .main{
+
+  .main {
     width: 100%;
   }
 
-  .pict{
+  .pict {
     overflow: hidden;
     /* background-color: aqua; */
     /* width: fit-content; */
   }
 
-  .main img{
+  .main img {
     width: 100%;
     height: auto;
-
   }
 }

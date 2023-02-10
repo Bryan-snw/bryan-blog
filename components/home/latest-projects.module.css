@@ -6,30 +6,30 @@
   color: white;
 }
 
- .title{
-  font-size:42px;
-  font-family: 'Marcellus SC';
+.title {
+  font-size: 42px;
+  font-family: "Marcellus SC";
   text-align: center;
   margin: 0;
 }
 
-.container{
-  margin:20px;
+.container {
+  margin: 20px;
 }
 
-.carousel{
+.carousel {
   /* background-color:cadetblue; */
   display: flex;
   margin: 30px auto;
-  width:inherit;
+  width: inherit;
   height: in;
   overflow-y: hidden;
-  overflow-x:auto;
+  overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
 }
 
-.carousel::-webkit-scrollbar{
+.carousel::-webkit-scrollbar {
   display: absolute;
   cursor: pointer;
   visibility: hidden;
@@ -42,19 +42,19 @@
   border-radius: 50px;
 } */
 
-.carousel .item{
+.carousel .item {
   border-radius: 50px;
   flex: 0 0 920px;
   margin: 0 30px;
   width: 920px;
   display: inline-flex;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   scroll-snap-align: center;
 }
 
-.item img{
-  border-radius:50px;
+.item img {
+  border-radius: 50px;
 }
 
 /* .item:nth-child(odd){
@@ -64,101 +64,101 @@
   background-color:seagreen;
 } */
 
-.item:first-child{
+.item:first-child {
   margin-left: 100px;
 }
-.item:last-child{
+.item:last-child {
   margin-right: 100px;
 }
 
-.indicator{
+.imgHolder {
+  width: 920px height=500px;
+}
+
+.indicator {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
-.indicator a{
+.indicator a {
   margin: 0 5px;
-  width:130px;
-  height:6px;
-  border-radius:50px;
+  width: 130px;
+  height: 6px;
+  border-radius: 50px;
 }
 
-.indicator a:first-child{
-  background-color: #FEFCF3;
+.indicator a:first-child {
+  background-color: #fefcf3;
 }
 
-.indicator a:not(:first-child){
-  background-color: #FEFCF399;
+.indicator a:not(:first-child) {
+  background-color: #fefcf399;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-  .title{
-    font-size:36px;
+  .title {
+    font-size: 36px;
   }
-  
-  .carousel .item{
+
+  .carousel .item {
     border-radius: 50px;
     flex: 0 0 600px;
     margin: 0 20px;
     width: 600px;
-    height:371px;
+    height: 371px;
   }
-  
-  .item img{
+
+  .item img {
     width: 600px;
     height: 371px;
     border-radius: 30px;
   }
 
-  .carousel{
+  .carousel {
     margin: 30px auto;
-    width:inherit;
+    width: inherit;
     height: auto;
   }
 
-  .item:first-child{
+  .item:first-child {
     margin-left: 50px;
   }
-  .item:last-child{
+  .item:last-child {
     margin-right: 50px;
   }
 }
 
 /* Mobile */
 @media only screen and (max-width: 768px) {
-  .title{
-    font-size:24px;
+  .title {
+    font-size: 24px;
   }
 
-  .carousel .item{
+  .carousel .item {
     border-radius: 50px;
     flex: 0 0 280px;
     margin: 0 10px;
     width: 280px;
-    height:190px;
+    height: 170px;
   }
 
-  .item img{
+  .item img {
     width: 280px;
-    height: 190px;
+    height: 170px;
     border-radius: 30px;
   }
-  .item:first-child{
+  .item:first-child {
     margin-left: 50px;
   }
-  .item:last-child{
+  .item:last-child {
     margin-right: 50px;
   }
 
-  .indicator a{
+  .indicator a {
     margin: 0 5px;
-    width:15%;
-    height:6px;
-    border-radius:50px;
+    width: 15%;
+    height: 6px;
+    border-radius: 50px;
   }
-
 }
-
-

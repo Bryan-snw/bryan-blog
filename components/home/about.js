@@ -30,7 +30,7 @@ function About() {
             it&apos;s a portofolio blog. That being said, i will continue to
             post my project in here, so take a look. Click
             <span className={classes.link}>
-              <Link href="/projects/detail/welcome"> here </Link>
+              <Link href="/projects/detail/bryan blog"> here </Link>
             </span>
             if you want to now in detail.
           </p>
