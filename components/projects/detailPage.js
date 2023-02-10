@@ -9,9 +9,9 @@ function DetailPage(props) {
 
   return (
     <div className={classes.main}>
-      <div className="componentContainer1">
+      <div className="componentContainer">
         <div className={classes.pict}>
-          <Image src={imagePath} alt={title} width={690} height={390} />
+          <Image src={imagePath} alt={title} width={1000} height={600} />
         </div>
         <h1 className={classes.title}>{title}</h1>
         <hr></hr>
@@ -30,12 +30,6 @@ function DetailPage(props) {
                 height={250}
               />
             ))}
-            {/* <Image src="/images/posts/2.png" alt="" width={495} height={300} />
-            <Image src="/images/posts/1.png" alt="" width={495} height={300} />
-            <Image src="/images/posts/2.png" alt="" width={495} height={300} />
-            <Image src="/images/posts/3.png" alt="" width={495} height={300} />
-            <Image src="/images/posts/2.png" alt="" width={495} height={300} />
-            <Image src="/images/posts/1.png" alt="" width={495} height={300} /> */}
           </div>
         </article>
       </div>

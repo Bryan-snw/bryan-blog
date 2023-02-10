@@ -1,11 +1,11 @@
 .main {
   display: flex;
-  padding-top: 80px;
-
+  overflow: hidden;
   align-items: center;
   justify-content: center;
   font-family: "Marcellus SC";
   font-style: normal;
+  margin-top: 80px;
 }
 
 .main a {
@@ -74,6 +74,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+  /* .main {
+    margin-top: 80px;
+    padding: 40px;
+  } */
+
   .pict {
     width: 100%;
     text-align: center;
@@ -91,6 +96,12 @@
 
   .main p {
     font-size: 17px;
+  }
+
+  .imgContainer {
+    grid-gap: 30px;
+    margin-top: 30px;
+    padding: 0px;
   }
 
   .imgContainer img {
