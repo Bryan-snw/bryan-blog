@@ -137,17 +137,21 @@
     font-size: 20px;
   }
 
+  .container {
+    margin: 10%;
+  }
+
   .carousel .item {
     border-radius: 50px;
-    flex: 0 0 270px;
+    flex: 0 0 250px;
     margin: 0 10px;
-    width: 270px;
-    height: 160px;
+    width: 250px;
+    height: 150px;
   }
 
   .item img {
-    width: 270px;
-    height: 160px;
+    width: 250px;
+    height: 150px;
     border-radius: 30px;
   }
   .item:first-child {

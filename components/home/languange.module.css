@@ -80,11 +80,6 @@
 
 /* Mobile */
 @media only screen and (max-width: 768px) {
-  .main h1 {
-    padding: 0 5%;
-    margin: 0 5%;
-  }
-
   .cards {
     grid-gap: 0.5rem;
     min-height: 50px;
