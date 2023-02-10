@@ -39,3 +39,22 @@
   display: inline;
   list-style: none;
 }
+
+@media only screen and (max-width: 768px) {
+  .main li {
+    font-size: 20px;
+  }
+  .pilih {
+    background-color: #31a5b5;
+    width: 30px;
+    height: 43px;
+    border-radius: 50px;
+  }
+
+  .main div:hover {
+    background-color: #31a5b5;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+  }
+}
