@@ -3,6 +3,7 @@
   width: 100%;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
   background-color: #1b262c;
   color: white;
 }
@@ -133,20 +134,20 @@
 /* Mobile */
 @media only screen and (max-width: 768px) {
   .title {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .carousel .item {
     border-radius: 50px;
-    flex: 0 0 280px;
+    flex: 0 0 270px;
     margin: 0 10px;
-    width: 280px;
-    height: 170px;
+    width: 270px;
+    height: 160px;
   }
 
   .item img {
-    width: 280px;
-    height: 170px;
+    width: 270px;
+    height: 160px;
     border-radius: 30px;
   }
   .item:first-child {
