@@ -3,7 +3,7 @@ title: "Tracking Delivery"
 date: "2023-02-10"
 image: "tracking.png"
 excerpt: "Tracking delivery is website application to track your package delivery"
-isFeatured: true
+isFeatured: false
 images: ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png"]
 ---
 
