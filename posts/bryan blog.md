@@ -3,7 +3,7 @@ title: "Bryan's Blog"
 date: "2023-02-09"
 image: "bryan.png"
 excerpt: "Bryan's Blog is a personal portofolio blog."
-isFeatured: true
+isFeatured: false
 images: []
 ---
 
