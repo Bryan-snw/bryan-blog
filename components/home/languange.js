@@ -24,6 +24,9 @@ function Languange() {
                 <i className="fa-brands fa-node"></i>
               </div>
               <div className={classes.cardscontent}>
+                <i className="fa-brands fa-laravel"></i>
+              </div>
+              <div className={classes.cardscontent}>
                 <i className="fa-brands fa-react"></i>
               </div>
               <div className={classes.cardscontent}>
