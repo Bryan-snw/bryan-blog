@@ -3,7 +3,7 @@ title: "Laravel Blog"
 date: "2023-03-19"
 image: "laravel-blog.png"
 excerpt: "Laaravel Blog is a blog website."
-isFeatured: true
+isFeatured: false
 images:
   [
     "1.jpg",

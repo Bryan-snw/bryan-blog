@@ -7,7 +7,7 @@ function ProjectsPage(props) {
   const { posts, halaman } = props;
 
   // Variable untuk Pagination
-  const jumlahDataPerHalaman = 2;
+  const jumlahDataPerHalaman = 3;
   var jumlahData = posts.length;
   var jumlahHalaman = Math.ceil(jumlahData / jumlahDataPerHalaman);
   var halamanAktif = parseInt(halaman);

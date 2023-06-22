@@ -11,7 +11,7 @@ function DetailPage(props) {
     <div className={classes.main}>
       <div className="componentContainer">
         <div className={classes.pict}>
-          <Image src={imagePath} alt={title} width={1000} height={600} />
+          <Image src={imagePath} alt={title} width={700} height={400} />
         </div>
         <h1 className={classes.title}>{title}</h1>
         <hr></hr>

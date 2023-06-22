@@ -25,7 +25,7 @@ function Navigation() {
           <Link href="/projects/1" onClick={clickHandler}>
             <li>Projects</li>
           </Link>
-          <Link href="#about" onClick={clickHandler}>
+          <Link href="/#about" onClick={clickHandler}>
             <li>About</li>
           </Link>
           <Link href="#footer" onClick={clickHandler}>
