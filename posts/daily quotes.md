@@ -3,7 +3,7 @@ title: "Daily Quotes"
 date: "2023-04-11"
 image: "dailyQuotes.png"
 excerpt: "Daily Quotes is a platform dedicated to sharing positivity, kindness, and motivation through inspiring quotes"
-isFeatured: true
+isFeatured: false
 images: ["1.png", "2.png", "3.png"]
 ---
 
