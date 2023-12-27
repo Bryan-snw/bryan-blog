@@ -18,7 +18,7 @@ function Languange() {
                         <i className="fa-brands fa-js"></i>
                      </div>
                      <div className={classes.cardscontent}>
-                        <i class="fa-brands fa-python"></i>
+                        <i className="fa-brands fa-python"></i>
                      </div>
                      <div className={classes.cardscontent}>
                         <i className="fa-brands fa-php"></i>
@@ -57,6 +57,16 @@ function Languange() {
                            <Image
                               src="/images/site/mysql.png"
                               alt="MongoDB"
+                              width={150}
+                              height={77}
+                           />
+                        </i>
+                     </div>
+                     <div className={classes.cardscontent}>
+                        <i>
+                           <Image
+                              src="/images/site/flask.png"
+                              alt="Flask"
                               width={150}
                               height={77}
                            />

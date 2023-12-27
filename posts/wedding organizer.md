@@ -3,7 +3,7 @@ title: "Wedding Organizer"
 date: "2023-06-22"
 image: "wedding-organizer.png"
 excerpt: "Wedding Organizer is a website."
-isFeatured: true
+isFeatured: false
 images: []
 ---
 
